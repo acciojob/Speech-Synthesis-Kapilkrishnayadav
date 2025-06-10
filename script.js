@@ -66,4 +66,6 @@
           
         }
       });
-
+document.querySelector(".Stop").addEventListener("click", () => {
+        speechSynthesis.cancel();
+      });
